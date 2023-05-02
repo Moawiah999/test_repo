@@ -13,7 +13,12 @@ class _VideoScreenState extends State<VideoScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("Moawiah"),
+      ),
+      body: Container(
+        child: Text("Modification of the home page"),
+      ),
     );
   }
 }
