@@ -17,7 +17,10 @@ class _LoginScreenState extends State<LoginScreen> {
         title: Text("log in screen"),
       ),
       body: Container(
-        child: Text("mmmmmmmmmm"),
+        child: Text(
+          "mmmmmmmmmm",
+          style: TextStyle(color: Colors.amber),
+        ),
       ),
     );
   }
